@@ -2,8 +2,7 @@
 
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+
   font-style: normal;
 }
 * {
@@ -81,7 +80,6 @@ nav button {
   opacity: 70%;
   text-align: center;
   padding-bottom: 32px;
-  width: 1200px;
 }
 /* ------header section ends here---- */
 /* ------web development section starts here---- */
@@ -283,3 +281,101 @@ nav button {
 }
 
 /* ------Target section ends here---- */
+/* ------Next Target section starts here---- */
+.next-target h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 24px;
+}
+.next-target h6 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 48px;
+  width: 882px;
+  margin: 0 auto;
+}
+.next-target {
+  height: 866px;
+  margin-bottom: 49px;
+}
+.reactJs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  margin-bottom: 24px;
+  height: 219px;
+}
+.mongoDB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  margin-bottom: 24px;
+  height: 219px;
+}
+.nodeJs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  margin-bottom: 24px;
+  height: 219px;
+}
+.frame {
+  width: 1140px;
+  margin: 0 auto;
+}
+.frame h2 {
+  padding-bottom: 8px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.frame p {
+  padding-bottom: 24px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.frame a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.reactJs-description,
+.nodeJs-description,
+.mongoDB-description {
+  padding-left: 24px;
+}
+
+/* ------Next Target section ends here---- */
