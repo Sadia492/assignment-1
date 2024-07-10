@@ -168,21 +168,16 @@ nav button {
 /* ------Inspiration section starts here---- */
 .inspiration h1 {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 32px;
   font-weight: 800;
-  line-height: 37px;
-  letter-spacing: 0%;
   text-align: center;
   padding-bottom: 24px;
 }
 .inspiration p {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0%;
   text-align: center;
   padding-bottom: 48px;
   width: 852px;
@@ -210,3 +205,81 @@ nav button {
 }
 
 /* ------Inspiration section ends here---- */
+/* ------Target section starts here---- */
+.skill {
+  width: 1140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 24px;
+}
+.target {
+  margin-bottom: 111px;
+}
+.target h2 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 24px;
+}
+.target h6 {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  padding-bottom: 48px;
+  width: 852px;
+  margin: 0 auto;
+}
+.html {
+  border-radius: 16px;
+  width: 364px;
+  height: 320px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.skill p {
+  padding-bottom: 24px;
+  padding-top: 8px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.skill h1 {
+  padding-top: 23px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.skill a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.css {
+  border-radius: 16px;
+  width: 364px;
+  height: 320px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+}
+.js {
+  border-radius: 16px;
+  width: 364px;
+  height: 320px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+
+/* ------Target section ends here---- */
