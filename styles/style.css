@@ -105,6 +105,7 @@ nav button {
   padding-bottom: 48px;
   width: 900px;
   margin: 0 auto;
+  opacity: 70%;
 }
 .coding,
 .creating,
@@ -170,6 +171,7 @@ nav button {
   text-align: center;
   padding-bottom: 48px;
   width: 852px;
+  opacity: 70%;
 }
 .inspiration iframe {
   width: 970px;
@@ -222,6 +224,7 @@ nav button {
   padding-bottom: 48px;
   width: 852px;
   margin: 0 auto;
+  opacity: 70%;
 }
 .html {
   border-radius: 16px;
@@ -238,6 +241,7 @@ nav button {
   font-weight: 400;
   line-height: 26px;
   text-align: left;
+  opacity: 70%;
 }
 .skill h1 {
   padding-top: 23px;
@@ -288,6 +292,7 @@ nav button {
   padding-bottom: 48px;
   width: 882px;
   margin: 0 auto;
+  opacity: 70%;
 }
 .next-target {
   height: 866px;
@@ -341,6 +346,7 @@ nav button {
   font-weight: 400;
   line-height: 26px;
   text-align: left;
+  opacity: 70%;
 }
 .frame a {
   color: rgb(13, 19, 33);
