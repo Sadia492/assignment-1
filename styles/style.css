@@ -32,7 +32,6 @@ nav button {
   width: 228px;
   height: 58px;
   background-color: white;
-  box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
@@ -96,7 +95,6 @@ nav button {
   padding-bottom: 24px;
   font-size: 32px;
   font-weight: 800;
-
   text-align: center;
 }
 .web h6 {
@@ -130,7 +128,6 @@ nav button {
 .web a {
   text-decoration: none;
   color: rgb(13, 19, 33);
-
   font-size: 20px;
   font-weight: 600;
   padding: 12px 20px;
@@ -140,21 +137,15 @@ nav button {
 }
 .web h2 {
   color: rgba(13, 19, 33, 0.7);
-  font-family: Azeret Mono;
   font-size: 24px;
   font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0%;
   text-align: left;
   padding-bottom: 16px;
 }
 .web p {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0%;
   text-align: left;
   opacity: 70%;
   padding-bottom: 44px;
@@ -284,21 +275,15 @@ nav button {
 /* ------Next Target section starts here---- */
 .next-target h1 {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 32px;
   font-weight: 800;
-  line-height: 37px;
-  letter-spacing: 0%;
   text-align: center;
   padding-bottom: 24px;
 }
 .next-target h6 {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0%;
   text-align: center;
   padding-bottom: 48px;
   width: 882px;
@@ -345,30 +330,22 @@ nav button {
 .frame h2 {
   padding-bottom: 8px;
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 24px;
   font-weight: 800;
-  line-height: 36px;
-  letter-spacing: 0%;
   text-align: left;
 }
 .frame p {
   padding-bottom: 24px;
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0%;
   text-align: left;
 }
 .frame a {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 700;
-  line-height: 19px;
-  letter-spacing: 0%;
   text-align: left;
   text-decoration-line: underline;
 }
@@ -442,12 +419,10 @@ footer {
   height: 100px;
   width: 100%;
   border-radius: 16px;
-
   background-color: rgba(13, 19, 33, 0.03);
 }
 footer h1 {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
 }
