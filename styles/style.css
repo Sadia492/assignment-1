@@ -433,3 +433,25 @@ nav button {
   padding: 19px;
 }
 /* ------support section ends here---- */
+/* ------footer section starts here---- */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 526px;
+  height: 100px;
+  width: 100%;
+  border-radius: 16px;
+
+  background-color: rgba(13, 19, 33, 0.03);
+}
+footer h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+}
+.social img {
+  margin-right: 24px;
+}
+/* ------footer section ends here---- */
