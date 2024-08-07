@@ -38,13 +38,18 @@ nav button {
 }
 .banner-container {
   background-image: url("../assets/Hero-bg.png");
+  background-position: center;
+  background-size: cover;
   width: 100%;
-  height: 652px;
+  /* height: 652px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 74px;
+}
+.banner-image img {
+  width: 100%;
 }
 .banner-description a {
   text-decoration: none;
@@ -84,8 +89,8 @@ nav button {
 /* ------web development section starts here---- */
 .web {
   border-radius: 16px;
-  width: 1140px;
-  height: 1395px;
+  width: 80%;
+  /* height: 1395px; */
   margin: 0 auto 88px auto;
   background-color: rgba(13, 19, 33, 0.02);
 }
@@ -113,8 +118,8 @@ nav button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 946px;
-  height: 336px;
+  width: 80%;
+  /* height: 336px; */
   margin: 0 auto;
   border-radius: 16px;
   padding: 48px;
@@ -173,9 +178,12 @@ nav button {
   width: 852px;
   opacity: 70%;
 }
+.inspiration-iframe {
+  width: 70%;
+}
 .inspiration iframe {
-  width: 970px;
-  height: 550px;
+  width: 100%;
+  height: 70vh;
   text-align: center;
 }
 .inspiration {
@@ -203,7 +211,7 @@ nav button {
 /* ------Inspiration section ends here---- */
 /* ------Target section starts here---- */
 .skill {
-  width: 1140px;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,7 +242,7 @@ nav button {
 .html {
   border-radius: 16px;
   width: 364px;
-  height: 320px;
+  /* height: 320px; */
   background: rgba(255, 76, 30, 0.05);
   padding: 40px;
 }
@@ -268,14 +276,14 @@ nav button {
 .css {
   border-radius: 16px;
   width: 364px;
-  height: 320px;
+  /* height: 320px; */
   background: rgba(0, 76, 232, 0.05);
   padding: 40px;
 }
 .js {
   border-radius: 16px;
   width: 364px;
-  height: 320px;
+  /* height: 320px; */
   background: rgba(255, 223, 0, 0.05);
   padding: 40px;
 }
@@ -300,7 +308,7 @@ nav button {
   opacity: 70%;
 }
 .next-target {
-  height: 866px;
+  /* height: 866px; */
   margin-bottom: 49px;
 }
 .reactJs {
@@ -311,7 +319,7 @@ nav button {
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 16px;
   margin-bottom: 24px;
-  height: 219px;
+  /* height: 219px; */
 }
 .mongoDB {
   display: flex;
@@ -321,7 +329,7 @@ nav button {
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 16px;
   margin-bottom: 24px;
-  height: 219px;
+  /* height: 219px; */
 }
 .nodeJs {
   display: flex;
@@ -331,10 +339,10 @@ nav button {
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 16px;
   margin-bottom: 24px;
-  height: 219px;
+  /* height: 219px; */
 }
 .frame {
-  width: 1140px;
+  width: 80%;
   margin: 0 auto;
 }
 .frame h2 {
@@ -372,8 +380,10 @@ nav button {
   background-image: url("../assets/handshake.jpg");
   background-position: center;
   background-size: cover;
-  width: 1140px;
-  height: 313px;
+  width: 80%;
+  /* height: 313px; */
+  padding-top: 70px;
+  padding-bottom: 70px;
   margin: 0 auto 80px auto;
   border-radius: 16px;
   display: flex;
@@ -427,7 +437,9 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 526px;
-  height: 100px;
+  /* height: 100px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: 100%;
   border-radius: 16px;
   background-color: rgba(13, 19, 33, 0.03);
@@ -440,4 +452,123 @@ footer h1 {
 .social img {
   margin-right: 24px;
 }
+.display-none {
+  display: none;
+}
 /* ------footer section ends here---- */
+/* responsive for smaller devices */
+@media screen and (max-width: 576px) {
+  nav button {
+    margin-right: 10px;
+  }
+  nav h1 {
+    margin-left: 10px;
+  }
+
+  .banner-description {
+    padding: 10px 10px;
+  }
+  .coding,
+  .creating,
+  .change {
+    flex-direction: column;
+  }
+  .coding-image {
+    margin-top: 20px;
+  }
+  .coding img,
+  .creating img,
+  .change img {
+    width: 100%;
+  }
+  .web,
+  .web h6 {
+    width: 100%;
+  }
+  .inspiration-iframe {
+    width: 100%;
+  }
+  .inspiration p {
+    width: 100%;
+  }
+  .skill {
+    flex-direction: column;
+  }
+  .target h6 {
+    width: 100%;
+  }
+  .reactJs,
+  .nodeJs,
+  .mongoDB {
+    flex-direction: column;
+  }
+  .next-target h6 {
+    width: 100%;
+  }
+  .support-input input[type="text"] {
+    width: 100%;
+  }
+  .support {
+    width: 90%;
+  }
+  .support-input button {
+    margin: 10px auto;
+  }
+  footer {
+    gap: 10px;
+  }
+  .social img {
+    margin-right: 0px;
+  }
+}
+/* responsive for medium devices */
+@media screen and (max-width: 992px) {
+  nav button {
+    margin-right: 10px;
+  }
+  nav h1 {
+    margin-left: 10px;
+  }
+  .banner-description {
+    padding: 10px 10px;
+  }
+  .coding,
+  .creating,
+  .change {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+  }
+  .coding img,
+  .creating img,
+  .change img {
+    width: 100%;
+  }
+  .web,
+  .web h6 {
+    width: 100%;
+  }
+  .inspiration p {
+    width: 100%;
+  }
+  .target h6 {
+    width: 100%;
+  }
+  .html,
+  .css,
+  .js {
+    padding: 20px;
+  }
+  .next-target h6 {
+    width: 100%;
+  }
+  .support-input input[type="text"] {
+    width: 100%;
+  }
+  .support-input button {
+    margin: 10px auto;
+  }
+  footer {
+    gap: 30px;
+  }
+}
